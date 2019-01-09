@@ -5,7 +5,7 @@ $previous=0
 while (1)	#infinite loop
 {
 
-$a =get-date -uformat "%S"          #so that i can enter the every second into the database
+$a =get-date -uformat "%S"          #so that i can enter data every second into the database
 if($a -ne $previous)
 {
 
